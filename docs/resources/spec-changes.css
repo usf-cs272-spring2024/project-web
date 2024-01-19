@@ -29,6 +29,7 @@ ins, .inserted, strong {
     text-decoration: underline;
 }
 .draft-header strong,
+.navbar strong,
 .legal-footer strong { /* undo in header/footer */
 	background-color: inherit;
     font-weight: bold;

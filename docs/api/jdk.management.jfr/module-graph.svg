@@ -19,8 +19,8 @@
 </g>
 <!-- java.management&#45;&gt;java.base -->
 <g id="edge1" class="edge"><title>java.management&#45;&gt;java.base</title>
-<path fill="none" stroke="#999999" stroke-width="2" d="M69,-83.6501C69,-73.9808 69,-62.1502 69,-51.4157"/>
-<polygon fill="#999999" stroke="#999999" stroke-width="2" points="69,-41.1671 73.5001,-51.1671 69.5,-46.1671 69.5001,-51.1671 69.0001,-51.1671 68.5001,-51.1671 68.5,-46.1671 64.5001,-51.1672 69,-41.1671 69,-41.1671"/>
+<path fill="none" stroke="#dddddd" stroke-width="2" d="M69,-83.6501C69,-73.9808 69,-62.1502 69,-51.4157"/>
+<polygon fill="#dddddd" stroke="#dddddd" stroke-width="2" points="69,-41.1671 73.5001,-51.1671 69.5,-46.1671 69.5001,-51.1671 69.0001,-51.1671 68.5001,-51.1671 68.5,-46.1671 64.5001,-51.1672 69,-41.1671 69,-41.1671"/>
 </g>
 <!-- jdk.jfr -->
 <g id="node3" class="node"><title>jdk.jfr</title>
@@ -28,8 +28,8 @@
 </g>
 <!-- jdk.jfr&#45;&gt;java.base -->
 <g id="edge2" class="edge"><title>jdk.jfr&#45;&gt;java.base</title>
-<path fill="none" stroke="#999999" stroke-width="2" d="M173.799,-84.6875C154.945,-73.3195 130.689,-58.6949 110.262,-46.3788"/>
-<polygon fill="#999999" stroke="#999999" stroke-width="2" points="101.475,-41.0808 112.363,-42.3906 106.016,-43.2344 110.297,-45.8161 110.039,-46.2443 109.781,-46.6725 105.499,-44.0907 107.716,-50.098 101.475,-41.0808 101.475,-41.0808"/>
+<path fill="none" stroke="#dddddd" stroke-width="2" d="M173.799,-84.6875C154.945,-73.3195 130.689,-58.6949 110.262,-46.3788"/>
+<polygon fill="#dddddd" stroke="#dddddd" stroke-width="2" points="101.475,-41.0808 112.363,-42.3906 106.016,-43.2344 110.297,-45.8161 110.039,-46.2443 109.781,-46.6725 105.499,-44.0907 107.716,-50.098 101.475,-41.0808 101.475,-41.0808"/>
 </g>
 <!-- jdk.management.jfr -->
 <g id="node4" class="node"><title>jdk.management.jfr</title>

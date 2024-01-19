@@ -19,8 +19,8 @@
 </g>
 <!-- java.scripting&#45;&gt;java.base -->
 <g id="edge1" class="edge"><title>java.scripting&#45;&gt;java.base</title>
-<path fill="none" stroke="#999999" stroke-width="2" d="M54,-83.6501C54,-73.9808 54,-62.1502 54,-51.4157"/>
-<polygon fill="#999999" stroke="#999999" stroke-width="2" points="54,-41.1671 58.5001,-51.1671 54.5,-46.1671 54.5001,-51.1671 54.0001,-51.1671 53.5001,-51.1671 53.5,-46.1671 49.5001,-51.1672 54,-41.1671 54,-41.1671"/>
+<path fill="none" stroke="#dddddd" stroke-width="2" d="M54,-83.6501C54,-73.9808 54,-62.1502 54,-51.4157"/>
+<polygon fill="#dddddd" stroke="#dddddd" stroke-width="2" points="54,-41.1671 58.5001,-51.1671 54.5,-46.1671 54.5001,-51.1671 54.0001,-51.1671 53.5001,-51.1671 53.5,-46.1671 49.5001,-51.1672 54,-41.1671 54,-41.1671"/>
 </g>
 </g>
 </svg>

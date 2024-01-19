@@ -19,8 +19,8 @@
 </g>
 <!-- jdk.httpserver&#45;&gt;java.base -->
 <g id="edge1" class="edge"><title>jdk.httpserver&#45;&gt;java.base</title>
-<path fill="none" stroke="#999999" stroke-width="2" d="M56,-83.6501C56,-73.9808 56,-62.1502 56,-51.4157"/>
-<polygon fill="#999999" stroke="#999999" stroke-width="2" points="56,-41.1671 60.5001,-51.1671 56.5,-46.1671 56.5001,-51.1671 56.0001,-51.1671 55.5001,-51.1671 55.5,-46.1671 51.5001,-51.1672 56,-41.1671 56,-41.1671"/>
+<path fill="none" stroke="#dddddd" stroke-width="2" d="M56,-83.6501C56,-73.9808 56,-62.1502 56,-51.4157"/>
+<polygon fill="#dddddd" stroke="#dddddd" stroke-width="2" points="56,-41.1671 60.5001,-51.1671 56.5,-46.1671 56.5001,-51.1671 56.0001,-51.1671 55.5001,-51.1671 55.5,-46.1671 51.5001,-51.1672 56,-41.1671 56,-41.1671"/>
 </g>
 </g>
 </svg>

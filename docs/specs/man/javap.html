@@ -5,11 +5,19 @@
   <meta name="generator" content="pandoc,fixuphtml" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>The javap Command</title>
-  <style type="text/css">
-      code{white-space: pre-wrap;}
-      span.smallcaps{font-variant: small-caps;}
-      span.underline{text-decoration: underline;}
-      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../resources/jdk-default.css" />
   <!--[if lt IE 9]>
@@ -17,16 +25,23 @@
   <![endif]-->
 </head>
 <body>
+
 <header id="title-block-header">
+<div class="navbar"><div><strong>Java SE 21 & JDK 21</strong></div><nav><ul><li><a href="../../api/index.html">API</a>
+<li><a href="../index.html">OTHER SPECIFICATIONS</a>
+<li><a href="../man/index.html">TOOL GUIDES</a></ul></nav></div>
+
 <h1 class="title">The javap Command</h1>
 </header>
-<nav id="TOC" title="Table Of Contents">
+<nav id="TOC" role="doc-toc" title="Table Of Contents">
 <ul>
-<li><a href="#name">Name</a></li>
-<li><a href="#synopsis">Synopsis</a></li>
-<li><a href="#description">Description</a></li>
-<li><a href="#options-for-javap">Options for javap</a></li>
-<li><a href="#javap-example">javap Example</a></li>
+<li><a href="#name" id="toc-name">Name</a></li>
+<li><a href="#synopsis" id="toc-synopsis">Synopsis</a></li>
+<li><a href="#description" id="toc-description">Description</a></li>
+<li><a href="#options-for-javap" id="toc-options-for-javap">Options for
+javap</a></li>
+<li><a href="#javap-example" id="toc-javap-example">javap
+Example</a></li>
 </ul>
 </nav>
 <main><h2 id="name">Name</h2>
@@ -35,10 +50,15 @@
 <p><code>javap</code> [<em>options</em>] <em>classes</em>...</p>
 <dl>
 <dt><em>options</em></dt>
-<dd>Specifies the command-line options. See <a href="#options-for-javap">Options for javap</a>.
+<dd>
+Specifies the command-line options. See <a
+href="#options-for-javap">Options for javap</a>.
 </dd>
 <dt><em>classes</em></dt>
-<dd><p>Specifies one or more classes separated by spaces to be processed for annotations. You can specify a class that can be found in the class path by its file name, URL, or by its fully qualified class name.</p>
+<dd>
+<p>Specifies one or more classes separated by spaces to be processed for
+annotations. You can specify a class that can be found in the class path
+by its file name, URL, or by its fully qualified class name.</p>
 <p>Examples:</p>
 <blockquote>
 <p><code>path/to/MyClass.class</code></p>
@@ -52,73 +72,110 @@
 </dd>
 </dl>
 <h2 id="description">Description</h2>
-<p>The <code>javap</code> command disassembles one or more class files. The output depends on the options used. When no options are used, the <code>javap</code> command prints the protected and public fields, and methods of the classes passed to it.</p>
-<p>The <code>javap</code> command isn't multirelease JAR aware. Using the class path form of the command results in viewing the base entry in all JAR files, multirelease or not. Using the URL form, you can use the URL form of an argument to specify a specific version of a class to be disassembled.</p>
-<p>The <code>javap</code> command prints its output to <code>stdout</code>.</p>
+<p>The <code>javap</code> command disassembles one or more class files.
+The output depends on the options used. When no options are used, the
+<code>javap</code> command prints the protected and public fields, and
+methods of the classes passed to it.</p>
+<p>The <code>javap</code> command isn't multirelease JAR aware. Using
+the class path form of the command results in viewing the base entry in
+all JAR files, multirelease or not. Using the URL form, you can use the
+URL form of an argument to specify a specific version of a class to be
+disassembled.</p>
+<p>The <code>javap</code> command prints its output to
+<code>stdout</code>.</p>
 <p><strong>Note:</strong></p>
-<p>In tools that support <code>--</code> style options, the GNU-style options can use the equal sign (<code>=</code>) instead of a white space to separate the name of an option from its value.</p>
+<p>In tools that support <code>--</code> style options, the GNU-style
+options can use the equal sign (<code>=</code>) instead of a white space
+to separate the name of an option from its value.</p>
 <h2 id="options-for-javap">Options for javap</h2>
 <dl>
-<dt><code>--help</code>, <code>-help</code> , <code>-h</code>, or <code>-?</code></dt>
-<dd>Prints a help message for the <code>javap</code> command.
+<dt><code>--help</code>, <code>-help</code> , <code>-h</code>, or
+<code>-?</code></dt>
+<dd>
+Prints a help message for the <code>javap</code> command.
 </dd>
 <dt><code>-version</code></dt>
-<dd>Prints release information.
+<dd>
+Prints release information.
 </dd>
 <dt><code>-verbose</code> or <code>-v</code></dt>
-<dd>Prints additional information about the selected class.
+<dd>
+Prints additional information about the selected class.
 </dd>
 <dt><code>-l</code></dt>
-<dd>Prints line and local variable tables.
+<dd>
+Prints line and local variable tables.
 </dd>
 <dt><code>-public</code></dt>
-<dd>Shows only public classes and members.
+<dd>
+Shows only public classes and members.
 </dd>
 <dt><code>-protected</code></dt>
-<dd>Shows only protected and public classes and members.
+<dd>
+Shows only protected and public classes and members.
 </dd>
 <dt><code>-package</code></dt>
-<dd>Shows package/protected/public classes and members (default).
+<dd>
+Shows package/protected/public classes and members (default).
 </dd>
 <dt><code>-private</code> or <code>-p</code></dt>
-<dd>Shows all classes and members.
+<dd>
+Shows all classes and members.
 </dd>
 <dt><code>-c</code></dt>
-<dd>Prints disassembled code, for example, the instructions that comprise the Java bytecodes, for each of the methods in the class.
+<dd>
+Prints disassembled code, for example, the instructions that comprise
+the Java bytecodes, for each of the methods in the class.
 </dd>
 <dt><code>-s</code></dt>
-<dd>Prints internal type signatures.
+<dd>
+Prints internal type signatures.
 </dd>
 <dt><code>-sysinfo</code></dt>
-<dd>Shows system information (path, size, date, SHA-256 hash) of the class being processed.
+<dd>
+Shows system information (path, size, date, SHA-256 hash) of the class
+being processed.
 </dd>
 <dt><code>-constants</code></dt>
-<dd>Shows <code>static final</code> constants.
+<dd>
+Shows <code>static final</code> constants.
 </dd>
-<dt><code>--module</code> <em>module</em> or <code>-m</code> <em>module</em></dt>
-<dd>Specifies the module containing classes to be disassembled.
+<dt><code>--module</code> <em>module</em> or <code>-m</code>
+<em>module</em></dt>
+<dd>
+Specifies the module containing classes to be disassembled.
 </dd>
 <dt><code>--module-path</code> <em>path</em></dt>
-<dd>Specifies where to find application modules.
+<dd>
+Specifies where to find application modules.
 </dd>
 <dt><code>--system</code> <em>jdk</em></dt>
-<dd>Specifies where to find system modules.
+<dd>
+Specifies where to find system modules.
 </dd>
-<dt><code>--class-path</code> <em>path</em>, <code>-classpath</code> <em>path</em>, or <code>-cp</code> <em>path</em></dt>
-<dd>Specifies the path that the <code>javap</code> command uses to find user class files. It overrides the default or the <code>CLASSPATH</code> environment variable when it's set.
+<dt><code>--class-path</code> <em>path</em>, <code>-classpath</code>
+<em>path</em>, or <code>-cp</code> <em>path</em></dt>
+<dd>
+Specifies the path that the <code>javap</code> command uses to find user
+class files. It overrides the default or the <code>CLASSPATH</code>
+environment variable when it's set.
 </dd>
 <dt><code>-bootclasspath</code> <em>path</em></dt>
-<dd>Overrides the location of bootstrap class files.
+<dd>
+Overrides the location of bootstrap class files.
 </dd>
 <dt><code>--multi-release</code> <em>version</em></dt>
-<dd>Specifies the version to select in multi-release JAR files.
+<dd>
+Specifies the version to select in multi-release JAR files.
 </dd>
 <dt><code>-J</code><em>option</em></dt>
-<dd><p>Passes the specified option to the JVM. For example:</p>
+<dd>
+<p>Passes the specified option to the JVM. For example:</p>
 <pre><code>javap -J-version
 
 javap -J-Djava.security.manager -J-Djava.security.policy=MyPolicy MyClassName</code></pre>
-<p>See <em>Overview of Java Options</em> in <a href="java.html">java</a>.</p>
+<p>See <em>Overview of Java Options</em> in <a
+href="java.html">java</a>.</p>
 </dd>
 </dl>
 <h2 id="javap-example">javap Example</h2>
@@ -148,14 +205,16 @@ public class HelloWorldFrame extends JFrame {
     }
 
 }</code></pre>
-<p>The output from the <code>javap HelloWorldFrame.class</code> command yields the following:</p>
+<p>The output from the <code>javap HelloWorldFrame.class</code> command
+yields the following:</p>
 <pre><code>Compiled from &quot;HelloWorldFrame.java&quot;
 public class HelloWorldFrame extends javax.swing.JFrame {
   java.lang.String message;
   public HelloWorldFrame();
   public static void main(java.lang.String[]);
 }</code></pre>
-<p>The output from the <code>javap -c HelloWorldFrame.class</code> command yields the following:</p>
+<p>The output from the <code>javap -c HelloWorldFrame.class</code>
+command yields the following:</p>
 <pre><code>Compiled from &quot;HelloWorldFrame.java&quot;
 public class HelloWorldFrame extends javax.swing.JFrame {
   java.lang.String message;
@@ -190,6 +249,6 @@ public class HelloWorldFrame extends javax.swing.JFrame {
       10: invokevirtual #10       // Method setVisible:(Z)V
       13: return
 }</code></pre>
-</main><footer class="legal-footer"><hr/><a href="../../legal/copyright.html">Copyright</a> &copy; 1993, 2021, Oracle and/or its affiliates, 500 Oracle Parkway, Redwood Shores, CA 94065 USA.<br>All rights reserved. Use is subject to <a href="https://www.oracle.com/java/javase/terms/license/java17speclicense.html">license terms</a> and the <a href="https://www.oracle.com/technetwork/java/redist-137594.html">documentation redistribution policy</a>. <!-- Version 17.0.2+8-LTS-86 --></footer>
+</main><footer class="legal-footer"><hr/><a href="../../legal/copyright.html">Copyright</a> &copy; 1993, 2024, Oracle and/or its affiliates, 500 Oracle Parkway, Redwood Shores, CA 94065 USA.<br>All rights reserved. Use is subject to <a href="https://www.oracle.com/java/javase/terms/license/java21speclicense.html">license terms</a> and the <a href="https://www.oracle.com/technetwork/java/redist-137594.html">documentation redistribution policy</a>. <!-- Version 21.0.2+13-LTS-58 --></footer>
 </body>
 </html>

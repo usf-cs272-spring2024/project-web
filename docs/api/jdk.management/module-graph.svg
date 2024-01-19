@@ -19,8 +19,8 @@
 </g>
 <!-- java.management&#45;&gt;java.base -->
 <g id="edge1" class="edge"><title>java.management&#45;&gt;java.base</title>
-<path fill="none" stroke="#999999" stroke-width="2" d="M69,-83.6501C69,-73.9808 69,-62.1502 69,-51.4157"/>
-<polygon fill="#999999" stroke="#999999" stroke-width="2" points="69,-41.1671 73.5001,-51.1671 69.5,-46.1671 69.5001,-51.1671 69.0001,-51.1671 68.5001,-51.1671 68.5,-46.1671 64.5001,-51.1672 69,-41.1671 69,-41.1671"/>
+<path fill="none" stroke="#dddddd" stroke-width="2" d="M69,-83.6501C69,-73.9808 69,-62.1502 69,-51.4157"/>
+<polygon fill="#dddddd" stroke="#dddddd" stroke-width="2" points="69,-41.1671 73.5001,-51.1671 69.5,-46.1671 69.5001,-51.1671 69.0001,-51.1671 68.5001,-51.1671 68.5,-46.1671 64.5001,-51.1672 69,-41.1671 69,-41.1671"/>
 </g>
 <!-- jdk.management -->
 <g id="node3" class="node"><title>jdk.management</title>

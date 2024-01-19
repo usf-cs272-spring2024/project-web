@@ -19,15 +19,15 @@
 </g>
 <!-- java.xml&#45;&gt;java.base -->
 <g id="edge5" class="edge"><title>java.xml&#45;&gt;java.base</title>
-<path fill="none" stroke="#999999" stroke-width="2" d="M43,-83.6501C43,-73.9808 43,-62.1502 43,-51.4157"/>
-<polygon fill="#999999" stroke="#999999" stroke-width="2" points="43,-41.1671 47.5001,-51.1671 43.5,-46.1671 43.5001,-51.1671 43.0001,-51.1671 42.5001,-51.1671 42.5,-46.1671 38.5001,-51.1672 43,-41.1671 43,-41.1671"/>
+<path fill="none" stroke="#dddddd" stroke-width="2" d="M43,-83.6501C43,-73.9808 43,-62.1502 43,-51.4157"/>
+<polygon fill="#dddddd" stroke="#dddddd" stroke-width="2" points="43,-41.1671 47.5001,-51.1671 43.5,-46.1671 43.5001,-51.1671 43.0001,-51.1671 42.5001,-51.1671 42.5,-46.1671 38.5001,-51.1672 43,-41.1671 43,-41.1671"/>
 </g>
 <!-- java.desktop -->
 <g id="node2" class="node"><title>java.desktop</title>
 <text text-anchor="middle" x="149" y="-185.4" font-family="DejaVuSans" font-size="12.00" fill="#e76f00">java.desktop</text>
 </g>
 <!-- java.desktop&#45;&gt;java.xml -->
-<g id="edge2" class="edge"><title>java.desktop&#45;&gt;java.xml</title>
+<g id="edge3" class="edge"><title>java.desktop&#45;&gt;java.xml</title>
 <path fill="none" stroke="#999999" stroke-width="2" d="M123.61,-167.859C109.554,-156.985 91.9025,-143.33 76.7032,-131.572"/>
 <polygon fill="#999999" stroke="#999999" stroke-width="2" points="68.5498,-125.265 79.2129,-127.824 72.8106,-127.929 76.7654,-130.988 76.4594,-131.384 76.1535,-131.779 72.1987,-128.72 73.706,-134.943 68.5498,-125.265 68.5498,-125.265"/>
 </g>
@@ -36,7 +36,7 @@
 <text text-anchor="middle" x="185" y="-101.4" font-family="DejaVuSans" font-size="12.00" fill="#e76f00">java.datatransfer</text>
 </g>
 <!-- java.desktop&#45;&gt;java.datatransfer -->
-<g id="edge3" class="edge"><title>java.desktop&#45;&gt;java.datatransfer</title>
+<g id="edge2" class="edge"><title>java.desktop&#45;&gt;java.datatransfer</title>
 <path fill="none" stroke="#999999" stroke-width="2" d="M157.715,-167.65C162.092,-157.679 167.479,-145.409 172.307,-134.413"/>
 <polygon fill="#999999" stroke="#999999" stroke-width="2" points="176.366,-125.167 176.466,-136.133 174.813,-129.946 172.804,-134.525 172.346,-134.324 171.888,-134.123 173.898,-129.544 168.225,-132.515 176.366,-125.167 176.366,-125.167"/>
 </g>
@@ -46,13 +46,13 @@
 </g>
 <!-- java.management&#45;&gt;java.base -->
 <g id="edge4" class="edge"><title>java.management&#45;&gt;java.base</title>
-<path fill="none" stroke="#999999" stroke-width="2" d="M304.325,-167.782C301.284,-144.476 292.766,-106.08 269,-84 221.846,-40.1915 146.732,-26.656 96.1813,-22.7101"/>
-<polygon fill="#999999" stroke="#999999" stroke-width="2" points="86.1003,-22.0243 96.3827,-18.2134 91.1227,-21.8648 96.1112,-22.2042 96.0772,-22.7031 96.0433,-23.2019 91.0548,-22.8625 95.7718,-27.1927 86.1003,-22.0243 86.1003,-22.0243"/>
+<path fill="none" stroke="#dddddd" stroke-width="2" d="M304.325,-167.782C301.284,-144.476 292.766,-106.08 269,-84 221.846,-40.1915 146.732,-26.656 96.1813,-22.7101"/>
+<polygon fill="#dddddd" stroke="#dddddd" stroke-width="2" points="86.1003,-22.0243 96.3827,-18.2134 91.1227,-21.8648 96.1112,-22.2042 96.0772,-22.7031 96.0433,-23.2019 91.0548,-22.8625 95.7718,-27.1927 86.1003,-22.0243 86.1003,-22.0243"/>
 </g>
 <!-- java.datatransfer&#45;&gt;java.base -->
 <g id="edge1" class="edge"><title>java.datatransfer&#45;&gt;java.base</title>
-<path fill="none" stroke="#999999" stroke-width="2" d="M150.987,-83.859C131.46,-72.5823 106.753,-58.3149 85.9011,-46.2739"/>
-<polygon fill="#999999" stroke="#999999" stroke-width="2" points="77.2272,-41.265 88.1374,-42.3688 81.8071,-43.3324 86.137,-45.8328 85.887,-46.2658 85.637,-46.6988 81.307,-44.1984 83.6366,-50.1627 77.2272,-41.265 77.2272,-41.265"/>
+<path fill="none" stroke="#dddddd" stroke-width="2" d="M150.987,-83.859C131.46,-72.5823 106.753,-58.3149 85.9011,-46.2739"/>
+<polygon fill="#dddddd" stroke="#dddddd" stroke-width="2" points="77.2272,-41.265 88.1374,-42.3688 81.8071,-43.3324 86.137,-45.8328 85.887,-46.2658 85.637,-46.6988 81.307,-44.1984 83.6366,-50.1627 77.2272,-41.265 77.2272,-41.265"/>
 </g>
 <!-- jdk.jconsole -->
 <g id="node6" class="node"><title>jdk.jconsole</title>

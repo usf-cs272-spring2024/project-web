@@ -19,8 +19,8 @@
 </g>
 <!-- jdk.management.agent&#45;&gt;java.base -->
 <g id="edge1" class="edge"><title>jdk.management.agent&#45;&gt;java.base</title>
-<path fill="none" stroke="#999999" stroke-width="2" d="M84.5,-83.6501C84.5,-73.9808 84.5,-62.1502 84.5,-51.4157"/>
-<polygon fill="#999999" stroke="#999999" stroke-width="2" points="84.5,-41.1671 89.0001,-51.1671 85,-46.1671 85.0001,-51.1671 84.5001,-51.1671 84.0001,-51.1671 84,-46.1671 80.0001,-51.1672 84.5,-41.1671 84.5,-41.1671"/>
+<path fill="none" stroke="#dddddd" stroke-width="2" d="M84.5,-83.6501C84.5,-73.9808 84.5,-62.1502 84.5,-51.4157"/>
+<polygon fill="#dddddd" stroke="#dddddd" stroke-width="2" points="84.5,-41.1671 89.0001,-51.1671 85,-46.1671 85.0001,-51.1671 84.5001,-51.1671 84.0001,-51.1671 84,-46.1671 80.0001,-51.1672 84.5,-41.1671 84.5,-41.1671"/>
 </g>
 </g>
 </svg>
